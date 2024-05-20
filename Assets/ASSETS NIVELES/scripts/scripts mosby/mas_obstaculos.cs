@@ -6,8 +6,8 @@ public class mas_obstaculos : MonoBehaviour
 {
     public float tmax = 1;
     public float tinicial;
-    public float GameObject obst;
-    public float altura1, altura 2;
+    public  GameObject obst;
+    public float altura1, altura2;
 
     // Start is called before the first frame update
     void Start()
