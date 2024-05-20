@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Salto : MonoBehaviour
+public class Movimiento : MonoBehaviour
 {
     private Rigidbody2D rb;
     private Vector2 direccion;
