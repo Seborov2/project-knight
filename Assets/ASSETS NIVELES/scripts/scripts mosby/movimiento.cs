@@ -14,10 +14,14 @@ public class Movimiento : MonoBehaviour
     [Header("Colisiones")]
     public Vector2 abajo;
     public float radio;
-    public LayerMask piso;
+    public LayerMask suelo;
 
-    public Collider2D ensuelo;
-    public bool puedemover;
+    [Header("booleanos")]
+    //public Collider2D ensuelo;
+    public bool puedemover = true;
+    public bool ensuelo = true;
+
+
 
     private void Awake()
     {
@@ -47,7 +51,7 @@ public class Movimiento : MonoBehaviour
     }
     private void Agarres()
     {
-        //ensuelo = Physics2D.OverlapCircle((Vector2)transform.position + abajo, radio, piso);
+        ensuelo = Physics2D.OverlapCircle((Vector2)transform.position + abajo, radio, suelo);
     }
     private void saltar1()
     {
@@ -86,4 +90,5 @@ public class Movimiento : MonoBehaviour
             rb.velocity += Vector2.up * Physics2D.gravity.y * (2.0f - 1) * Time.deltaTime;
         }
     }
+
 }
