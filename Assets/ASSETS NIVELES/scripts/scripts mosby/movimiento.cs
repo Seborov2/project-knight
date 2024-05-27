@@ -67,12 +67,12 @@ public class Movimiento : MonoBehaviour
             {
                 if (direccion.x < 0 && transform.localScale.x > 0)
                 {
-                    //transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+                    transform.localScale = new Vector3(transform.localScale.x, transform.localScale.y, transform.localScale.z);
                 }
                 if (direccion.x > 0 && transform.localScale.x < 0)
 
                 {
-                    //transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.z);
+                    transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.z);
                 }
 
             }
