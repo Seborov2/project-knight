@@ -6,6 +6,7 @@ public class Movimiento : MonoBehaviour
 {
     private Rigidbody2D rb;
     private Vector2 direccion;
+    private Animator anim;
 
     [Header("Estadísticas")]
     public float velocidad = 10;

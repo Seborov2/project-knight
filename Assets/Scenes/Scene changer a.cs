@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Scenechangera : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
 
     private string bossguardia;
  
