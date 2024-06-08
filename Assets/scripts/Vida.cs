@@ -14,16 +14,15 @@ public class Vida : MonoBehaviour
         Debug.Log(vidacaballero);
     }
 
-
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log(other.gameObject.name);
-        
+        Debug.Log(collision.gameObject.name);
 
 
-        if (other.tag == "Player")
+
+        if (collision.tag == "player")
         {
-            other.gameObject.transform.position = Respawn.transform.position;
+            collision.gameObject.transform.position = Respawn.transform.position;
             vidacaballero--;
             Debug.Log(vidacaballero);
 
@@ -33,4 +32,5 @@ public class Vida : MonoBehaviour
             SceneManager.LoadScene("game over");
         }
     }
+   
 }
