@@ -12,12 +12,27 @@ EditorBuildSettings:
     path: Assets/Scenes/Menuinicial.unity
     guid: 1b22ed703e99fef4e97449ac89bc2356
   - enabled: 1
+    path: Assets/Scenes/nivel 1.unity
+    guid: 91a56a41ea556d842889e96c8f1c8587
+  - enabled: 1
+    path: Assets/Scenes/nivel 1 boss.unity
+    guid: 19b0201759db1f64982a770c72642216
+  - enabled: 0
     path: Assets/Scenes/nivel mazmorra.unity
     guid: 6163a8ea9d3e04b4eb93f303b22e345f
+  - enabled: 1
+    path: Assets/Scenes/aqua level.unity
+    guid: 679cd4a94e847b645a9f19d58afbff76
+  - enabled: 1
+    path: Assets/Scenes/carnaval.unity
+    guid: 799f6be5456ebc144a9e4c13a6453e00
   - enabled: 1
     path: Assets/Scenes/bosque pre guardia.unity
     guid: 4f4a19715659eab41b0c455fe71d84ea
   - enabled: 1
     path: Assets/Scenes/bossguardia.unity
     guid: 199eab6db4286db4bb2f002839d1c0d9
+  - enabled: 1
+    path: Assets/Scenes/gameover.unity
+    guid: d08d9db1600dd3b43be648aeed7dbfbe
   m_configObjects: {}

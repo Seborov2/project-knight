@@ -29,7 +29,7 @@ public class Vida : MonoBehaviour
         }
         if (vidacaballero == 0)
         {
-            SceneManager.LoadScene("game over");
+            SceneManager.LoadScene("gameover");
         }
     }
    
